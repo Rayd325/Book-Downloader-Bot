@@ -17,11 +17,11 @@ from telegram.utils.helpers import mention_html
 
 load_dotenv()
 
-TOKEN = os.getenv('TOKEN', '1789117801:AAE7kPyd23Xbq3kPSvFH5OHMzAkHY96xJsc') # please use your own token this is already resoked
+TOKEN = os.getenv('TOKEN', '6871668861:AAFh0hemPjfflb6rok8QRdfRflu7RLZ2cm4') # please use your own token this is already resoked
 DETA_KEY = os.getenv(
-    'DETA_KEY', 'd0fx3kttcjd_7CrquXya2gHRf448TjjnU1BcAQxnJs83') # please use your own https://deta.space/collections. this is already revoked
+    'DETA_KEY', 'y8PNgRmX_r8BVSCDcxh26FpXLnmUhCrYCxCrcFKZ4') # please use your own https://deta.space/collections. this is already revoked
 
-ADMIN_ID = [1697562512] # please replace this by your own id
+ADMIN_ID = [1241586562] # please replace this by your own id
 
 deta = Deta(DETA_KEY)
 db = deta.Base('amazingbookdownloaderbot')
@@ -46,9 +46,7 @@ WELCOME_MESSAGE = '''Welcome to Book Downloader Bot.
 
 Any time send me the book name you want to download. 50MB is the maximum size of the book you can download.
 
-created by @chapimenge
-
-Join https://t.me/codewizme for more bots and projects.
+created by @darklordke
 
 '''
 
