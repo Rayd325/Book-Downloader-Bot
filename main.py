@@ -24,7 +24,7 @@ DETA_KEY = os.getenv(
 ADMIN_ID = [1241586562] # please replace this by your own id
 
 deta = Deta(DETA_KEY)
-db = deta.Base('amazingbookdownloaderbot')
+db = deta.Base('rayd23')
 if not db.get('total_downloads'):
     db.put({
         'key': 'total_downloads',
